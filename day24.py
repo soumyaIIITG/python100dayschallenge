@@ -1,0 +1,11 @@
+tup = (1,5,6,"Soumya")
+print(type(tup))
+print(tup)
+print(tup[2])
+print(len(tup))
+if "Soumya" in tup:
+    print("Yes Soumya is present inside the tuppel")
+tup = (1)
+print(type(tup))
+tup = (1,)
+print(type(tup))
